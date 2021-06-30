@@ -1,0 +1,217 @@
+#pag_home section{
+    background-color: #f2f2f2;
+}
+#pag_home .titulo1{
+    margin-bottom: 20px;;
+}
+#pag_home #slide{
+    overflow: hidden;
+}
+#pag_home #slide .srv_bk{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    background-color: white;
+    border-radius: 100%;
+    right: -120px;
+    top: -120px;
+    z-index: 100;
+}
+#pag_home #slide .slideTxt{
+    display: none;
+}
+#pag_home #slide .slideTxt.showed{
+    display: block;
+}
+#pag_home #slide .srv_bk2{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    right: calc(40vh + 150px);
+    top: calc(50vh - 150px);
+    z-index: 150;
+    background-image: url("../../assets/texturas/reticula_verde.png");
+    background-repeat: no-repeat;
+}
+@media(max-height:770px){
+    #pag_home #slide .srv_bk2{
+        top: 300px;
+    }
+}
+
+#pag_home #slide p{
+    margin-bottom: 40px;
+}
+#pag_home #slide .conte{
+    position: relative;
+    z-index: 300;
+}
+#pag_home #slide #slide_cont{
+    display: flex;
+    width:250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#pag_home #slide #slide .slideTxt  h3.titulo2{
+    margin-bottom: 0px;;
+}
+#pag_home #slide #slide_cont > div{
+    height:15px;
+    width:15px;
+    background-color: #666;
+    border-radius: 100%;
+    margin:10px;
+    margin-top:30px;
+    transition: .3s;
+}
+#pag_home #slide #slide_cont > div.slc{
+    background-color: var(--colorPrincipal);
+    height:20px;
+    width:20px;
+}
+#pag_home #slide #slide_cont > div:hover{
+    background-color: var(--colorInteraccion);
+}
+
+
+
+body#pag_home section#nosotros.fnd_oscuro{
+    background-color: var(--colorPrincipal) !important;
+}
+#pag_home section#nosotros .srv_bk {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 700px;
+    background-image: url("../../assets/texturas/circ.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 467px;
+    z-index: 300;
+}
+#pag_home section#nosotros  .srv_bk2{
+    position: absolute;
+    height: 70vh;
+    width: 70vh;
+    left: var(--col-1);
+    top: 15vh;
+    z-index: 150;
+   background-color: rgba(255,255,255,0.3);
+   border-radius: 100%;
+}
+
+#pag_home #servicios .homblqserv{
+    background-color: white;
+    border-radius: 20px;
+    padding:30px 15px 30px 15px;
+    margin:calc(var(--section-pad-sup) / 2) 15px 0px 15px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);
+    height: 311px;   
+}
+@media(max-width:1130px){
+    #pag_home #servicios .homblqserv{
+        height: 330px;
+    }
+}
+#pag_home #servicios .homblqserv > .homblqserv_img{
+    height:120px;
+    width:120px;
+    margin:auto;
+    background-color: #f2f2f2;
+    border-radius: 100%;
+    margin-bottom: 20px;;
+}
+#pag_home #servicios .homblqserv > .homblqserv_img img{
+    object-fit: contain;
+    height:80px;
+    object-position: center center;
+}
+#pag_home section#nosotros .tocont{
+    position: relative;
+    z-index: 500;
+}
+@media(max-width:1400px){
+    #pag_home #slide .srv_bk{
+        height: 700px;
+        width: 700px;
+    }
+}
+@media(max-width:1250px){
+    #pag_home #slide .srv_bk{
+        height: 600px;
+        width: 600px;
+    }
+}
+@media(max-width:1000px){
+    #pag_home #slide .srv_bk2{
+        bottom: -100px;
+        right: calc(100% / 2 - 125px);
+        top:auto;
+    }
+}
+@media(max-width:900px){
+    #pag_home section#nosotros .srv_bk{
+        height: 500px;
+        width: 367px;
+    }
+    #pag_home section#nosotros .srv_bk2{
+        left: 80px;
+        top: 80px;
+        height: 40vh;
+        width: 40vh;
+    }
+}
+@media(max-width:850px){
+    #pag_home #slide .srv_bk{
+        height: 500px;
+        width: 500px;
+    }
+}
+@media(max-width:800px){
+    #pag_home section#nosotros .srv_bk{
+        height: 450px;
+        width: 337px;
+        left:-170px;
+    }
+    #pag_home section#nosotros .srv_bk2{
+        left: -50px;
+        top: -50px;
+        height: 40vh;
+        width: 40vh;
+        background-color: rgba(255,255,255,0.2);
+    }
+    #pag_home #slide .srv_bk{
+        opacity: 0.7;
+    }
+    #pag_home #slide .srv_bk2{
+        left:250px;
+    }
+}
+@media(max-width:700px){
+    #pag_home section#nosotros .srv_bk{
+        height: 400px;
+        width: 280px;
+    }
+    #pag_home #slide .srv_bk2{
+     display: none;
+    }
+}
+
+@media(max-width:500px){
+    #pag_home section#nosotros .srv_bk{
+        height: 259px;
+        width: 222px;
+        left: -23px;
+        bottom: -54px;
+    }
+    #pag_home section#nosotros .srv_bk2{
+        left: auto;
+        right:-50px;
+        top: -50px;
+        height: 40vh;
+        width: 40vh;
+    }
+}

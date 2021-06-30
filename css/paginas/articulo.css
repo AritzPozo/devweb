@@ -1,0 +1,15 @@
+#pag_articulo section#header_page{
+    background-color:var(--colorSecundario);
+    padding-top:200px;
+    padding-bottom: calc(var(--section-pad-sup) / 2);
+}
+#pag_articulo section{
+    background-color: #f2f2f2;
+}
+#pag_articulo section p{
+    margin-bottom: 20px;;
+    line-height: 1.3em;
+}
+#pag_articulo section#cuerpopost a:hover{
+    text-decoration: underline;
+}

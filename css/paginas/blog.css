@@ -1,0 +1,5 @@
+section#header_page .plcaImgFond{
+    background-image: url("/../../assets/bkheaders/bCloud.png");
+    padding:0px !important; 
+    background-size: cover;
+}

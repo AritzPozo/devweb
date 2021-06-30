@@ -1,0 +1,20 @@
+.dev_ui{
+
+
+    --colorPrincipal:#018ABE;
+    --colorPrincipalOscuro:#00489A;
+    --colorPrincipalClaro:#45AEFF;
+
+    --colorSecundario:#004481;
+    --colorSecundarioOscuro:#000050;
+    --colorSecundarioClaro:#4488A5;
+
+    --colorTerciario:#F7931E;
+    --colorTerciarioOscuro:#BB4900;
+    --colorTerciarioClaro:#ffBF44;
+
+    --colorInteraccion:#45c5e0;
+    --colorInteraccionOscuro:#019190;
+    --colorInteraccionClaro:#89f9f4;
+    --colorInteraccionCOntraste:#000;
+}

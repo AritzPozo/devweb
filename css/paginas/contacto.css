@@ -1,0 +1,92 @@
+#pag_contacto section#header_page{
+    background-color:var(--colorSecundario);
+    padding-top:200px;
+    padding-bottom: calc(var(--section-pad-sup) / 2);
+}
+#pag_contacto section{
+    background-color: #f2f2f2;
+}
+#pag_contacto .conrrss img{
+    height:15px;
+} 
+#pag_contacto  .datoscon{
+    width:32%;
+}
+#pag_contacto  .datoscon{
+    width:32%;
+}
+#pag_contacto  .datosrs{
+    width:32%;
+}
+#pag_contacto  .datosform{
+    width:32%;
+}
+#pag_contacto label{
+    font-size:var(--p-2);
+    padding-bottom:3px;
+}
+#pag_contacto input{
+    padding:5px;
+    border-radius: 10px;
+    width:100%;
+    margin-bottom:15px;
+    margin-top:3px;
+    border:1px solid var(--borde);
+}
+#pag_contacto input[type='checkbox']{
+    width:40px;
+}
+#pag_contacto textarea{
+    padding:5px;
+    border-radius: 10px;
+    max-width:100%;
+    min-width:100%;
+    margin-bottom:15px;
+    max-height: 150px;
+    min-height: 80px;
+    margin-top:3px;
+    border:1px solid var(--borde);
+}
+#pag_contacto section a{
+    color:var(--colorInteraccion)
+}
+#pag_contacto  section .datosrs a{
+    color:var(--colorTexto)
+}
+#pag_contacto  section .datosrs a:hover{
+    color:var(--colorInteraccion)
+}
+#pag_contacto  section .datoscon img{
+    width:14px;
+}
+@media(max-width:1050px){
+    #pag_contacto  .datoscon{
+        width:49%;
+    }
+    #pag_contacto  .datosrs{
+        width:49%;
+    }
+    #pag_contacto  .datosform{
+        width:100%;
+    }   
+    #pag_contacto  .datosform .boton{
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media(max-width:700px){
+    #pag_contacto  .datoscon{
+        width:100%;
+    }
+    #pag_contacto  .datosrs{
+        width:100%;
+    }
+    #pag_contacto  .datosform{
+        width:100%;
+    }   
+}
+section#header_page .plcaImgFond{
+    background-image: url("/../../assets/bkheaders/bContac.png");
+    padding:0px !important; 
+    background-size: cover;
+}

@@ -1,0 +1,21 @@
+.core_ui{
+
+
+    --colorPrincipal:#e50066;
+    --colorPrincipalOscuro:#A10022;
+    --colorPrincipalClaro:#F944AA;
+
+    --colorSecundario:#a1003d;
+    --colorSecundarioOscuro:#600009;
+    --colorSecundarioClaro:#E5447F;
+
+    --colorTerciario:#ff8d00;
+    --colorTerciarioOscuro:#BB4900;
+    --colorTerciarioClaro:#ffBF44;
+
+    --colorInteraccion:#ff4200;
+    --colorInteraccionOscuro:#940903;
+    --colorInteraccionClaro:#ffffcf;
+    --colorInteraccionCOntraste:#FFF;
+
+}

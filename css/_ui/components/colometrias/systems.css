@@ -1,0 +1,20 @@
+.system_ui{
+
+
+    --colorPrincipal:#00A881;
+    --colorPrincipalOscuro:#006220;
+    --colorPrincipalClaro:#44ECC5;
+
+    --colorSecundario:#006454;
+    --colorSecundarioOscuro:#002010;
+    --colorSecundarioClaro:#44A89A;
+
+    --colorTerciario:#F7931E;
+    --colorTerciarioOscuro:#BB4900;
+    --colorTerciarioClaro:#ffBF44;
+
+    --colorInteraccion:#00E6AE;
+    --colorInteraccionOscuro:#00A28A;
+    --colorInteraccionClaro:#44FAEF;
+    --colorInteraccionCOntraste:#FFF;
+}
